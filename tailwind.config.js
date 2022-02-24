@@ -3,17 +3,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'body': '#17171F',
-        'selected-text': '#A3A3FF',
-        'theme': '#3F3FFF',
-        'nav': '#404053',
-        'secondary': '#9191A4',
-        'badge': '#3F3F51',
-        'input-border': '#565666',
-        'input' : '#2A2A35'
+        'black': '#2F2F2F',
+        'blue': '#70A0BB',
+        'nav': 'rgba(255,255,255,.23)',
+        'btn': 'linear-gradient(#FFFFFF, #70A0BB);'
       },
       fontFamily: {
-        'poppins': ["'Poppins'", 'san-serif']
+        'cairo': ["'Cairo'", 'san-serif'],
+      },
+
+      backgroundImage: {
+        'background-image': 'url("../dist/img/heroImg.png")',
+        'background-image-product1' : 'url("../dist/img/project1.jpg")',
+        'background-image-product2' : 'url("../dist/img/project2.jpg")',
+        'background-image-product3' : 'url("../dist/img/project3.jpg")',
+        'background-image-product4' : 'url("../dist/img/project4.jpg")',
+        'background-image-product5' : 'url("../dist/img/project5.jpg")',
       }
     },
   },
